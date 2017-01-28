@@ -1,0 +1,20 @@
+conky.config = {
+ background = false,
+ update_interval = 2,
+ total_run_times = 0,
+ override_utf8_locale = true,
+ short_units = true,
+ uppercase = false,
+ out_to_console = true,
+ out_to_x = false,
+ if_up_strictness = 'address',
+ format_human_readable = true
+}
+
+conky.text = [[
+SYS \
+${time %d %m %y %I:%M%p} \
+${cpu} \
+${mem} \
+${memperc} \
+]]
